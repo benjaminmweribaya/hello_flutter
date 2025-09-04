@@ -73,15 +73,23 @@ Hello, World! 👋
 
 ```
 hello_flutter/
-│   pubspec.yaml            # Project metadata & dependencies
-│   README.md               # This documentation
+│ pubspec.yaml # Project metadata & dependencies
+│ README.md # Project documentation
 │
-├───android/                # Android-specific code (auto-generated)
-├───ios/                    # iOS-specific code (auto-generated, macOS only)
-├───web/                    # Web-specific support files
-├───test/                   # Example widget tests
-└───lib/
-    └───main.dart           # Application entry point (Hello World app)
+├───.dart_tool/ # Dart/Flutter internal tooling files
+├───.idea/ # IntelliJ/Android Studio project settings
+├───android/ # Android-specific code (Gradle, Kotlin, resources)
+├───build/ # Build output (generated, can be cleaned)
+├───docs/ # Project documentation (toolkit, journals, etc.)
+├───ios/ # iOS-specific code (Xcode project, Swift, assets)
+├───lib/ # Main application source code
+│ └───main.dart # Entry point of the Flutter Hello World app
+├───linux/ # Linux desktop build support
+├───macos/ # macOS desktop build support
+├───test/ # Example widget tests
+├───web/ # Web app build support (HTML, manifest, icons)
+├───windows/ # Windows desktop build support
+└───.metadata # Flutter project metadata (auto-generated)
 ```
 
 ---
